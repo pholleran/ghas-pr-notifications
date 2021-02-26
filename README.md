@@ -57,7 +57,7 @@ npm start
 ghas-pr-notifications depends upon a tracking repository in which to open new issues when alerts are dismissed. If you wish to use a repository with a name other than `code-scanning-review` simply set the following environment variable:
  
 ```
-SECURITY_REVIEW_REPO_OWNER="repo-owner-here"
+SECURITY_REVIEW_REPO_NAME="repo-owner-here"
 ```
 
 ## Running in Docker
