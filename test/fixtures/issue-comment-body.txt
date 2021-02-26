@@ -1,0 +1,13 @@
+## :warning: Code Scanning Alert Dismissed
+A code scanning alert created by `Anchore Container Vulnerability Report (T0)` in `Codertocat/Hello-World` was dismissed by **@Codertocat**.
+
+|   |   |
+| - | - |
+| **Repo:** | Codertocat/Hello-World |
+| **Rule:** | ANCHOREVULN_CVE-2020-27218_java-archive_http2-hpack_9.4.27.v20200227 |
+| **Severity:** | error |
+| **Description:** | CVE-2020-27218 Severity=Medium Package=http2-hpack Version=9.4.27.v20200227 |
+| **Reason:** | false positive |
+| **Time:** | 2021-02-11T02:59:08Z |
+
+[View full details](https://github.com/Codertocat/Hello-World/security/code-scanning/10)

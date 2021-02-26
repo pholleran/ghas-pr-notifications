@@ -1,0 +1,10 @@
+## :warning: Code Scanning Alert Introduced
+A code scanning alert has been detected on this branch by CodeQL.
+
+|   |   |
+| - | - |
+| **Rule:** | java/sql-injection |
+| **Severity:** | error |
+| **Description:** | Query built from user-controlled sources |
+
+[View full details](https://github.com/Codertocat/Hello-World/security/code-scanning/10)
