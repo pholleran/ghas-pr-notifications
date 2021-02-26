@@ -17,13 +17,13 @@ By default, the application expects a repository named `code-scanning-review` to
 
 **comments in the pull request**
 
-![image](https://user-images.githubusercontent.com/4007128/109250085-9bfd0f80-77ae-11eb-99ce-0a0080604f53.png)
+![image](https://user-images.githubusercontent.com/4007128/109251420-1169df80-77b1-11eb-9780-4f373cfe391b.png)
 
 **issues opened in the tracking repo**
 
-![image](https://user-images.githubusercontent.com/4007128/109250384-30677200-77af-11eb-832c-59f2e5b28c22.png)
+![image](https://user-images.githubusercontent.com/4007128/109251534-45450500-77b1-11eb-9865-59e87d21efba.png)
 
-![image](https://user-images.githubusercontent.com/4007128/109250490-686eb500-77af-11eb-9204-44567ce38b0a.png)
+![image](https://user-images.githubusercontent.com/4007128/109251595-5d1c8900-77b1-11eb-873f-74284aa43c9b.png)
 
 ### Why Probot and not Actions?
 
