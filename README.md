@@ -38,7 +38,7 @@ This patterns demonstrated in this application can be extended to meet your orga
 
 ## Setup
 
-Try it out by [installing the app](https://github.com/apps/ghas-pr-notifications) in your organization, or follow the directions below to customize the app and deploy it in an environment you control.
+First, create a a repository named `code-scanning-review` or a repository with a name that matches your desired `SECURITY_REVIEW_REPO_NAME`. Try it out by [installing the app](https://github.com/apps/ghas-pr-notifications) in your organization, or follow the directions below to customize the app and deploy it in an environment you control.
 
 Follow the Probot [deployment](https://probot.github.io/docs/deployment/) documentation to deploy the app anywhere you can run a node application. It should be installed on all repositories in your organization to ensure all newly created repos send code scanning alerts to the app.
 
