@@ -112,12 +112,10 @@ export = (app: Probot) => {
         context.payload.ref.substring(11);
       // if ref is empty check instances for a valid ref
     } else if (context.payload.alert.instances) {
-      console.log(context.payload.alert.instances);
       let done = false;
       let i = 0;
       while (!done) {
         if (context.payload.alert.instances[i].ref.startsWith("refs/heads/")) {
-          console.log(i + " - " + context.payload.alert.instances[i].ref);
           head =
             context.payload.repository.owner.login +
             ":" +
@@ -131,14 +129,12 @@ export = (app: Probot) => {
       }
     }
     if (head) {
-      console.log(head);
       // get the pull request associated with the branch
       let pulls = await context.octokit.pulls.list({
         owner: context.payload.repository.owner.login,
         repo: context.payload.repository.name,
         head: head,
       });
-      console.log(pulls.data.length);
       result = pulls.data;
     }
     return result;
